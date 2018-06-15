@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <title> Mara Triulzi | Photographer </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <section id="intestazione"> </section>
+      <header id="branding" class="clearfix" role="banner">
+        <h1 id="site-title" class="clearfix">
+          <a href="index.html"> Mara Triulzi </a>
+        </h1>
+        <nav id="access" role="navigation" class="clearfix">
+          <div class"menu-home-container">
+            <ul id="menu-home" class="sf-menu sf-js-enabled"><li id="menu-item-415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"><a href>PORTFOLIO</a></li>
+              <li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-236"><a href="aboutme.html">ABOUT ME</a></li>
+              <li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+        <body>
+          <nav id="filters" class="clearfix option-set">
+
+          <a href="black&white.html"> BLACK&WHITE </a>
+            <span class="sep"> • </span>
+          <a href="landscape.html"> LANDSCAPES </a>
+            <span class="sep"> • </span>
+            <a href="portraits.html"> PORTRAIT </a>
+
+            <span class="sep"> • </span>
+            <a href="street.html"> STREET </a>
+            <span class="sep"> • </span>
+
+                <a href="travel.html"> TRAVEL </a>
+
+        </header>
+
+        <div class="container">
+          <div class="flexbox-slideshow">
+            <ul class="slideshow">
+              <li class="placeholder">
+                <img width="1340px" height="896.78px"  src="child.jpg" >
+              </li>
+              <li class="slide active" id="slide-1">
+                <img width="1340px" height="896.78px" src="8.jpg">
+              </li>
+              <li class="slide active" id="slide-2">
+                <img width="1340px" height="896.78px" src="2.jpg">
+             </li>
+             <li class="slide active" id="slide-3">
+                <img width="1340px" height="896.78px" src="27.jpg">
+             </li>
+             <li class="slide active" id="slide-4">
+               <img width="1340px" height="896.78px" src="16.jpg">
+             </li>
+             <li class="slide active" id="slide-5">
+               <img width="1340px" height="896.78px" src="3.jpg">
+             </li>
+           </ul>
+          </div>
+         </div>
+         <ul class="dotnav">
+            <li class="dotnav-item active" onclick="changeOrder(this, 1)"><span></span></li>
+            <li class="dotnav-item" onclick="changeOrder(this, 2)"><span></span></li>
+            <li class="dotnav-item" onclick="changeOrder(this, 3)"><span></span></li>
+            <li class="dotnav-item" onclick="changeOrder(this, 4)"><span></span></li>
+            <li class="dotnav-item" onclick="changeOrder(this, 5)"><span></span></li>
+        </ul>
+       </div>
+      </div>
+<script type="text/javascript">
+function changeOrder(dot, number) {
+
+    var slides = document.querySelectorAll(".slide");
+    var dots = document.querySelectorAll(".dotnav-item");
+
+    for (var i = 0; i < slides.length; i++) {
+        slides[i].classList.remove('active');
+        dots[i].classList.remove('active');
+                                             }
+
+    var elemName = "slide-" + number;
+    var elem = document.getElementById(elemName);
+    elem.classList.add('active');
+    dot.classList.add('active');
+                                   }
+</script>
+
+
+
+  <style type="text/css">div.all {float:left; margin-left:40px;}</style>
+
+
+
+  <div id="a1" class="all">
+    <h1 class="titolo"> ISPIRAZIONE </h1>
+    <img width="353.3px" height="234.66" src="sergio larrain.jpg">
+      <h2 class="ispirazionesott"> SERGIO LARRAIN </h2>
+        <h4 class="sottotitolo"> la poesia fotografica del fotografo cileno </h4>
+          <p class="testo" >
+          Sergio Larrain nasce a Santiago de Cile nel 1931. La sua passione <br>
+          per la fotografia nasce durante un viaggio di otto mesi in Europa e <br>
+          Medio Oriente. Al ritorno in Cile, a Valparaiso, installa un piccolo <br>
+          laboratorio in casa che gli permette di sviluppare le foto. <br>
+          Il suo primo lavoro importante è per la rivista brasiliana O Cruzeiro. <br>
+          Successivamente alcune foto verranno comprate dal Museo di Arte <br>
+          Moderna di New York.
+            <div id="readmore"> <a> SCOPRI DI PIU </a> </div>
+            <div class="linea"> _ </div>
+  </div>
+
+
+  <div id="a2" class="all">
+    <img width="353.3px" height="234.66" src="francobattiato.jpg">
+      <h2 class="ispirazionesott"> FRANCO BATTIATO </h2>
+        <h4 class="sottotitolo"> tra musica e spiritualità </h4>
+          <p class="testo" >
+          Franco Battiato nasce a Riposto, in Sicilia nel 1945. La sua passione <br>
+          per la musica matura all'età di vent'anni quando si trasferisce a Milano. <br>
+          La sua carriera è riassumibile in varie sperimentazioni, dalle prime inci- <br>
+          sioni di musica leggera, all'elettronica, all'avanguardia. <br>
+          Battiato è considerato uno dei personaggi più spirituali della musica. <br>
+          Porta nei suoi testi, un pò enigmatici, messaggi spirituali che sembra- <br>
+          no rivolgersi a sfere più alte rispetto a quelli dei suoi colleghi .<br>
+            <div id="readmore"> <a> SCOPRI DI PIU  </a> </div>
+
+  </div>
+
+  <div id="a3" class="all">
+    <img width="353.3px" height="234.66" src="francofontana.jpg">
+      <h2 class="ispirazionesott"> FRANCO FONTANA </h2>
+        <h4 class="sottotitolo"> l'espressione astratta della fotografia </h4>
+          <p class="testo" >
+            Franco Fontana è uno dei fotografi italiani contemporanei più celebri <br>
+            a livello internazionale. Nato nel 1933 a Modena comincia a fotogra- <br>
+            fare nel 1961. Fin dall'inizio si focalizza su una ricerca estetica basa-<br>
+            ta sull'espressione astratta del colore. Dagli anni '70 la sua carriera <br>
+            sarà un susseguirsi di successi coronata da mostre e premi e colla- <br>
+            borazioni. <br>
+            <em>"La fotografia ha dato, e continua a dare, qualità alla mia vita."</em> <br>
+            <div id="readmore"> <a> SCOPRI DI PIU </a> </div>
+  </div>
+  <div style="clear:both;" /></div>
+</div>
+
+  <style type="text/css">div.mostregh {float:left; margin-left:40px;}</style>
+    <div id="b1" class="mostregh">
+      <h1 class="titolo"> ATTUALI MOSTRE </h1>
+        <img width="802px" height="500px" src="ghirri.jpg">
+        <div class="linea" id="lin"> _ </div>
+    </div>
+    <div id="b2" class="mostregh">
+      <h2 class="ispirazionesott"> LUIGI GHIRRI </h2>
+      <h4 class="sottotitolo"> il paesaggio dell'architettura </h4>
+      <h4 class="sottotitologh"> 25 MAG - 26 AGO 2018 </h4>
+      <p class="testo">
+          La mostra mette in luce l’importanza dell’opera di Luigi Ghirri <br>
+          nell’ambito dell’architettura, attraverso la sua decennale col- <br>
+          laborazione con la rivista “Lotus International”. <br>
+      </p>
+      <h4 class="sottotitolo"> TRIENNALE DI MILANO </h4>
+    </div>
+    <div style="clear:both;" /></div>
+  </div>
+<footer>
+     <div class="f"> Images and Original Text © 2018 Mara Triulzi </div>
+</footer>
+
+
+
+
+
+
+</html>
